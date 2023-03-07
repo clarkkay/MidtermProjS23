@@ -11,3 +11,4 @@ while True:
     else:
         print("Sensor failure. Check wiring.");
     time.sleep(3);
+print("hello")
