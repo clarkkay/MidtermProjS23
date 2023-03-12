@@ -1,0 +1,72 @@
+.flex-container {
+    height: fit-content;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    row-gap: 5vh;
+}
+
+.flex-container > div {
+    /* position: relative; */
+    width: 400px;
+    height: 450px;
+    /* left: 35%; */
+}
+
+/* .card:hover {
+    transition: filter 0.2s;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+
+    position: relative;
+    width: 400px;
+    height: 450px;
+    z-index: 1;
+
+    
+} */
+
+.card:hover .card-title {
+    transition: color 0.2s;
+    color: #000000;
+    font-weight: bold;
+    font-size: x-large;
+}
+.card:hover img {
+    transition: filter 0.2s;
+    filter: blur(5px);
+}
+
+.card-title {
+    position: absolute;
+    bottom: 1%;
+    /* background-color: rgba(212, 137, 112, 0.522); */
+    padding: 2rem 1rem;
+    color: transparent;
+    text-align: center;
+    transition: 200ms ease-in-out transform;
+}
+
+.card-desc {
+    position: absolute;
+    top: 1%;
+    padding: 2rem 1rem;
+    color: transparent;
+    text-align: left;
+    transition: 200ms ease-in-out transform;
+}
+
+.card:hover .card-desc {
+    transition: color 0.2s;
+    color: #000000;
+    font-weight: bold;
+    font-size: medium;
+    text-align: right;
+}
+
+
