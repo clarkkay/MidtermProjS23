@@ -121,7 +121,7 @@
     <!-- Home Catalog -->
 
 
-    <h2 style="text-align: center;">Hardware Used</h2>
+    <h2 class="fw-light" style="text-align: center;">Hardware Used</h2>
     <div class="album py-5 bg-light" style="height: fit-content;">
       <div class="flex-container">
 
@@ -129,14 +129,7 @@
             <div class="rPi3">
               <div class="card shadow-sm">
                 <img src="./images/RAPI3.jpg" alt="raspberry pi 3">
-                <div class="card-body">
-                  <p class="card-desc">
-                    The raspberry pi 3 is a single board computer used for a variety of projects. We placed this raspberry pi in a certain location to collect the temperature data.
-                  </p>
-                  <p class="card-title" style="text-align: center;">Raspberry Pi 3</p> 
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div>
+                <div class="card-body" id="rsp3"></div>
               </div>
             </div>
 
@@ -144,14 +137,7 @@
             <div class="rPi4">
               <div class="card shadow-sm">
                 <img src="./images/RPi4.jpg" alt="Raspberry Pi 4">
-                <div class="card-body">
-                  <p class="card-desc">
-                    The raspberry pi 4 is a single board computer used for a variety of projects. This model is similar to the raspberry pi 3 with a few hardware upgrades. We used this raspberry pi 4 to collect data on the opposite side of campus and had it collect data.
-                  </p>
-                  <p class="card-title" style="text-align: center;">Raspberry Pi 4</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div>
+                <div class="card-body" id="rsp4"></div>
               </div>
             </div>
 
@@ -159,14 +145,7 @@
             <div  class="DHT11">
               <div class="card shadow-sm">
                 <img src="./images/DHT11.jpg" alt="DHT11">
-                <div class="card-body">
-                  <p class="card-desc">
-                    The DHT11 is a temperature and humidity sensor.
-                  </p>
-                  <p class="card-title" style="text-align: center;">DHT11</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div>
+                <div class="card-body" id="dht"></div>
               </div>
             </div>
 
@@ -174,28 +153,14 @@
             <div class="micro-usb">
               <div class="card shadow-sm">
                 <img src="./images/microUSB.jpg" alt="micro-usb">
-                <div class="card-body">
-                  <p class="card-desc">
-                    The Micro USB is a connector used to connect the raspberry pi to a power source.
-                  </p>
-                  <p class="card-title" style="text-align: center;">Micro USB</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div>
+                <div class="card-body" id="micro-usb"></div>
               </div>
             </div>
 
             <div class="micro-sd">
               <div class="card shadow-sm">
                 <img src="./images/microSDcard.jpg" alt="micro sd">
-                <div class="card-body">
-                  <p class="card-desc">
-                    The Micro SD is a storage device used to store data on the raspberry pis
-                  </p>
-                  <p class="card-title" style="text-align: center;">Micro SD</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div>
+                <div class="card-body" id="micro-sd"></div>
               </div>
             </div>
 
@@ -217,6 +182,7 @@
 
 
 
+  <script src="./index.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
