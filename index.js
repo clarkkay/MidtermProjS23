@@ -1,4 +1,4 @@
-fetch('./data_display.json')
+fetch('./data.json')
 .then(function (response) {
     return response.json();
 })
@@ -36,7 +36,7 @@ function appendDataDisplay(data) {
     }
 }
 
-fetch('./index.json')
+fetch('./data.json')
 .then(function (response) {
     return response.json();
 })

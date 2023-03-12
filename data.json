@@ -1,4 +1,23 @@
 {
+    "Data Display": [
+        {
+            "name": "Raspberry Pi 3",
+            "type": "Temperatue",
+            "data": "44.0 C"
+        }, {
+            "name": "Raspberry Pi 4",
+            "type": "Temperature",
+            "data": "21.0 C"
+        }, {
+            "name": "Raspberry Pi 3",
+            "type": "Humidity",
+            "data": "21.0"
+        }, {
+            "name": "Raspberry Pi 4",
+            "type": "Humidity",
+            "data": "20.0"
+        }
+    ], 
     "Index Info": [
         {
             "device": "Raspberry Pi 3",
@@ -21,5 +40,5 @@
             "description": "The Micro SD is a storage device used to store data on the raspberry pis.",
             "selling-price": "$14.98"
         }
-    ]   
+    ]
 }
