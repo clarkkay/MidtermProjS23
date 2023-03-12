@@ -18,6 +18,8 @@
 
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="css/customCSS.css">
+
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -119,16 +121,15 @@
 
 
     <h2 style="text-align: center;">Hardware Used</h2>
-    <div class="album py-5 bg-light" style="height: 2000px;">
-      <div class="container">
+    <div class="album py-5 bg-light" style="height: fit-content;">
+      <div class="flex-container">
 
-        <section id="hardwareContainer">
-          <div>
-            <div class="col" style="position: relative;width: 450px; height: 250px; left: 25%;">
+          <!-- <div> -->
+            <div class="card">
               <div class="card shadow-sm">
-                <img src="./images/RPi3.webp" alt="raspberry pi 3">
+                <img src="./images/RAPI3.jpg" alt="raspberry pi 3">
                 <div class="card-body">
-                  <p class="card-text">Raspberry Pi 3</p>
+                  <p class="card-title" style="text-align: center;">Raspberry Pi 3</p> 
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
@@ -136,11 +137,11 @@
             </div>
 
 
-            <div class="col" style="position: relative;width: 450px; height: 250px; left: 25%; top: 150px">
+            <div class="card">
               <div class="card shadow-sm">
                 <img src="./images/RPi4.jpg" alt="Raspberry Pi 4">
                 <div class="card-body">
-                  <p class="card-text">Raspberry Pi 4</p>
+                  <p class="card-title" style="text-align: center;">Raspberry Pi 4</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
@@ -148,11 +149,11 @@
             </div>
 
 
-            <div class="col" style="position: relative;width: 450px; height: 250px; left: 25%; top:450px;">
+            <div  class="card">
               <div class="card shadow-sm">
                 <img src="./images/DHT11.jpg" alt="DHT11">
                 <div class="card-body">
-                  <p class="card-text">DHT11</p>
+                  <p class="card-title" style="text-align: center;">DHT11</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
@@ -160,30 +161,29 @@
             </div>
 
 
-            <div class="col" style="position: relative;width: 450px; height: 450px; left: 25%; top: 750px">
+            <div class="card">
               <div class="card shadow-sm">
-                <img src="./images/microUSB.jpg" alt="mirco-usb">
+                <img src="./images/microUSB.jpg" alt="micro-usb">
                 <div class="card-body">
-                  <p class="card-text">Micro USB</p>
+                  <p class="card-title" style="text-align: center;">Micro USB</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col" style="position: relative;width: 450px; height: 450px; left: 25%; top:850px">
+            <div class="card">
               <div class="card shadow-sm">
-                <img src="./images/MICROSD.jpg" alt="micro ssd">
+                <img src="./images/microSDcard.jpg" alt="micro ssd">
                 <div class="card-body">
-                  <p class="card-text">Micro SD</p>
+                  <p class="card-title" style="text-align: center;">Micro SD</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
               </div>
             </div>
 
-
-          </div>
+          <!-- </div> -->
       </div>
     </div>
     </section>

@@ -1,0 +1,71 @@
+.flex-container {
+    height: fit-content;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    row-gap: 5vh;
+}
+
+.flex-container > div {
+    /* position: relative; */
+    width: 400px;
+    height: 450px;
+    /* left: 35%; */
+}
+
+.card:hover {
+    /* Blur the underlying card and display text */
+    transition: filter 0.2s;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+
+    position: relative;
+    width: 400px;
+    height: 450px;
+    z-index: 1;
+
+    
+}
+
+.card-title {
+    color: transparent;
+}
+
+/* When .card is being hovered over, change the color of .card-title's text to be visible */
+
+.card:hover .card-title {
+    color: #000;
+    text-align: center;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/* 
+.rPi4 {
+    width: 400px;
+    height: 450px;
+}
+
+.DHT11 {
+    width: 400px;
+    height: 450px;
+}
+
+.micro-usb {
+    width: 400px;
+    height: 450px;
+}
+
+
+.micro-sd {
+    width: 400px;
+    height: 450px;
+} */
+
